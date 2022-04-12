@@ -31,4 +31,6 @@ def password_gen():
         textfile.write(x + "\n")
     textfile.close()
 
-password_gen()
+
+if __name__ == "__main__":
+    password_gen()
